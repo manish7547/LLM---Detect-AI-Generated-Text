@@ -1,11 +1,11 @@
 # LLM---Detect-AI-Generated-Text
-build a model to identify which essay was written by middle and high school students, and which was written using a large language model?
+Builded a model to identify which essay was written by middle and high school students, and which was written using a large language model?
 
 All of the essays were written in response to one of seven essay prompts. In each prompt, the students were instructed to read one or more source texts and then write a response. This same information may or may not have been provided as input to an LLM when generating an essay.
 
 Essays from two of the prompts compose the training set; the remaining essays compose the hidden test set. Nearly all of the training set essays were written by students, with only a few generated essays given as examples. You may wish to generate more essays to use as training data.
 
-Please note that this is a Code Competition. The data in test_essays.csv is only dummy data to help you author your solutions. When your submission is scored, this example test data will be replaced with the full test set. There are about 9,000 essays in the test set, both student written and LLM generated.
+Please note that this was a Code Competition. The data in test_essays.csv is only dummy data to help author for solutions.this example test data will be replaced with the full test set. There are about 9,000 essays in the test set, both student written and LLM generated.
 
 File and Field Information
 {test|train}_essays.csv
